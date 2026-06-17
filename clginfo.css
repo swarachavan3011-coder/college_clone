@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 50px;
+    background:rgb(16, 187, 222);
+}
+
+.logo{
+    display:flex;
+}
+
+.logo img{
+    width:90px;
+    margin-right:15px;
+}
+
+.college-name{
+    margin-top:15px;
+}
+
+.college-name h2{
+    color:black;
+    font-size:18px;
+}
+
+.college-name h1{
+    color:black;
+    font-size:28px;
+}
+
+.college-name p{
+    color:black;
+    font-size:12px;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#6b92db;
+    font-size:18px;
+    font-weight:500;
+}
+
+.menu a:hover{
+    color:green;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+ul li{
+    display:inline;
+    margin-right:20px;
+}
+
+.img{
+    width:100%;
+    height:auto;
+}
+
+.footer{
+    background:#70c5d7;
+    color:aliceblue;
+    padding:40px 20px;
+    display: flex;
+}
+
+nav a{
+    margin-right:30px;
+    text-decoration:none;
+}
+
+nav{
+    height:80px;
+    display:flex;
+    gap:30px;
+    align-items:center;
+    padding-left:20px;
+}
+
+
+
+.footer-links{
+    justify-content:space-around;
+    align-items:flex-start;
+    padding:40px;
+}
+
+.student-links,
+.quick-links,
+.other-links{
+    width:30%;
+}
+
+.footer-links h2{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    margin-bottom:10px;
+    text-decoration:none;
+}
+.footer1{
+    display: flex;
+}
+.footer1 img{
+    height: 150px;
+    width: 250px;
+}
+.contact{
+    align-content: flex-end;
+}
+
+.quick{
+    height:100px;
+    width:150px;
+    align-items: first baseline;
+
+}
+
+.student{
+    height:100px;
+    width:150px;
+    align-items: first baseline;
+
+}
+
+.other{
+    height:100px;
+    width:150px;
+    align-items: first baseline;
+
+}
+
+.copyright{
+    align-items:first baseline;
+}
+
+
